@@ -9,7 +9,7 @@ This tutorial will teach you how to:
 
 For the sake of demonstration and to impress your co-workers, we will bind a Javascript function "alert()“ that will display desktop notifications through the GTK library. Here’s what the end result looks like:
 
-![jsnotify screenshot](http://posterous.com/getfile/files.posterous.com/olalonde/RiXGvyU85iXwA2KcuikQnfi8WMMVf5XfkloWrz9RtzFdiiZn3gGBAJejdnyJ/jsnotify.png)
+![jsnotify screenshot](http://i.imgur.com/nUsWG.png)
 
 You can get the full source code of this tutorial [from github](https://github.com/olalonde/jsnotify):
 
