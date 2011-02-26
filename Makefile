@@ -1,4 +1,4 @@
-jsnotify : deps/v8/libv8.a
+jsnotify : jsnotify.o deps/v8/libv8.a
 	g++ -o jsnotify obj/jsnotify.o -L./deps/v8 -lv8 -lpthread `pkg-config --libs gtkmm-2.4 libnotifymm-1.0`
 
 jsnotify.o : src/jsnotify.cpp

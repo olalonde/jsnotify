@@ -6,9 +6,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-// We need those two libraries for the GTK+ notification 
-#include <gtkmm.h>
-#include <libnotifymm.h>
 
 void RunShell(v8::Handle<v8::Context> context);
 bool ExecuteString(v8::Handle<v8::String> source,
@@ -23,6 +20,9 @@ v8::Handle<v8::Value> Version(const v8::Arguments& args);
 v8::Handle<v8::String> ReadFile(const char* name);
 void ReportException(v8::TryCatch* handler);
 
+// We need those two libraries for the GTK+ notification 
+#include <gtkmm.h>
+#include <libnotifymm.h>
 v8::Handle<v8::Value> Alert(const v8::Arguments& args);
 
 int RunMain(int argc, char* argv[]) {
