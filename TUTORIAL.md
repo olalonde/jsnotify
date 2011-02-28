@@ -80,7 +80,7 @@ Let’s try to compile this!
 
 Of course, this gives us a bunch of errors since we haven’t specified where the V8 header and library files are. Let’s try again! 
 
-    g++ src/jsnotify.cpp&nbsp;-Ideps/v8/include -Ldeps/v8/ -lv8
+    g++ src/jsnotify.cpp -Ideps/v8/include -Ldeps/v8/ -lv8
 
 Oops, still some errors. Looks like we also have to link the pthread library.
 
@@ -140,7 +140,7 @@ You should see a nice notification in the top right of your screen! Note that yo
 
 ##Conclusion##
 
-It's quite easy to make a C++ program "Javascriptable" with V8 and the proper setup. If you'd like to practice your newfound skills, I suggest you try to add a title argument to the alert function. I suggest you follow me on Posterous if you'd like to be informed when I post the follow up to this tutorial which will explain how to extend [Node.js](http://nodejs.org/) with our alert function.
+It's quite easy to make a C++ program "Javascriptable" with V8 and the proper setup. If you'd like to practice your newfound skills, I suggest you try to add a title argument to the alert function. You might also want to follow me on Posterous if you'd like to be informed when I post the follow up to this tutorial which will explain how to extend [Node.js](http://nodejs.org/) with our alert function.
 
 That’s all for today, thanks for reading! Let me know in the comments if you run into any problem, I’ll be glad to help. 
 
