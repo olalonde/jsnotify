@@ -128,7 +128,7 @@ Now that we have our Alert C++ function, we need to tell V8 to bind it to the Ja
 
 Now, in order to compile, the compiler needs to know where to find the two header files we introduced. This is done using the pkg-config utility: 
 
-    g++ src/jsnotify.cpp -Ideps/v8/include -Ldeps/v8/ -lv8 -lpthread pkg-config --cflags --libs gtkmm-2.4 libnotifymm-1.0 
+    g++ src/jsnotify.cpp -Ideps/v8/include -Ldeps/v8/ -lv8 -lpthread `pkg-config --cflags --libs gtkmm-2.4 libnotifymm-1.0`
 
 We can now try our new alert function.
 
