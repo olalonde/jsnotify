@@ -144,4 +144,4 @@ It's quite easy to make a C++ program "Javascriptable" with V8 and the proper se
 
 That’s all for today, thanks for reading! Let me know in the comments if you run into any problem, I’ll be glad to help. 
 
-*If you liked this, maybe you'd also like what I [tweet on Twitter](http://twitter.com/olivierll)!*
+*If you liked this, maybe you'd also like what I [tweet on Twitter](http://twitter.com/o_lalonde)!*
